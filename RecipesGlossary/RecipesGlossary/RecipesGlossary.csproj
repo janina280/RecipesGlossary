@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Blazorise" Version="1.5.2" />
+		<PackageReference Include="Blazorise.Bootstrap" Version="1.5.2" />
+		<PackageReference Include="Blazorise.Bootstrap5" Version="1.5.2" />
+		<PackageReference Include="Blazorise.Components" Version="1.5.2" />
+		<PackageReference Include="Blazorise.DataGrid" Version="1.5.2" />
+		<PackageReference Include="Blazorise.Icons.FontAwesome" Version="1.5.2" />
+		<PackageReference Include="Blazorise.LoadingIndicator" Version="1.5.2" />
+		<PackageReference Include="Blazorise.Snackbar" Version="1.5.2" />
+		<PackageReference Include="Neo4j.Driver" Version="5.20.0" />
+	</ItemGroup>
+</Project>

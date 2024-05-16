@@ -1,0 +1,21 @@
+﻿@page "/"
+
+@using RecipesGlossary.Models
+@inherits ComponentBase
+@implements IDisposable
+
+<DataGrid TItem="@Recipe"
+          Data="@_recipes"
+          PageSize="20"
+          ShowPager
+          ShowPageSizes
+          SelectionMode="DataGridSelectionMode.Single"
+          @bind-SelectedRow="@_selectedRow"
+          Responsive
+          Filterable
+           DetailRowTrigger="(item)=> item.Item.Id == _selectedRow.Id">
+     <DetailRowTemplate>
+         @*todo: next grid*@
+         <DataGrid ></DataGrid>
+     </DetailRowTemplate>
+ </DataGrid>
